@@ -4,6 +4,8 @@ Pen palettes for [Xournal++](https://xournalpp.github.io/), taken from
 [enkia's Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme)
 VS Code theme (default Night variant, `#1a1b26`).
 
+![preview](preview.png)
+
 Three files, pick by paper:
 
 - `tokyo-night.gpl`: dark paper. Full glow, unreadable on white.
