@@ -1,36 +1,29 @@
 # Tokyo Night for Xournal++
 
-Tokyo Night pen palettes for [Xournal++](https://xournalpp.github.io/), faithful to
+Pen palettes for [Xournal++](https://xournalpp.github.io/), taken from
 [enkia's Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme)
-VS Code theme (default **Night** variant, `#1a1b26` + the README color table).
+VS Code theme (default Night variant, `#1a1b26`).
 
-Three palettes, one per paper situation:
+Three files, pick by paper:
 
-| File | Use when | Character |
-| --- | --- | --- |
-| `tokyo-night.gpl` | Dark paper (`#1a1b26`) | Full glow. Accents hit 6.5–14.5:1 on dark. Falls apart on white (1.2–2.6:1). |
-| `tokyo-night-light.gpl` | Light paper (`#e6e7ed`) | Faithful Light-variant inks, dark on light. |
-| `tokyo-night-mix.gpl` | Mixed / daily driver | Per-hue pick of whichever rendition reads on more papers. Muted on dark, strong on light. |
+- `tokyo-night.gpl`: dark paper. Full glow, unreadable on white.
+- `tokyo-night-light.gpl`: light paper.
+- `tokyo-night-mix.gpl`: daily driver. Readable on white, light, dark, and black paper. Muted on dark, no glow.
 
-No single palette glows on dark paper *and* reads on white — contrast is relative
-to the paper, so bright-on-dark inks are always weak-on-light. The Mix guarantees
-readability everywhere (mid-grey paper defeats every chromatic ink, so it is excluded):
-Grey 3.4, Yellow 3.1, Orange/Cyan 2.8, Red/Teal/Blue 2.5, Green 2.3, Magenta 2.0
-(worst-case across white/light/dark/black; 3:1+ is pen-safe). Its two extremes pair up
-like default's Black/White: **Ink Dark** for light papers, **Ink Light** for dark ones.
+Why three: an ink bright enough to glow on dark paper is too close to white to read on white paper. The Mix trades glow for readability. Mid-grey paper beats every color, so it is left out.
 
 ## Install
 
-Copy the `.gpl` files into the `palettes` folder inside your Xournal++ config folder
-(`~/.config/xournalpp/palettes/` on Linux), restart Xournal++, then pick the palette
-under `Edit → Preferences → Palette`.
+Copy the `.gpl` files to the `palettes` folder in your Xournal++ config folder
+(`~/.config/xournalpp/palettes/` on Linux). Restart Xournal++, then pick one in
+`Edit > Preferences > Palette`.
 
-Tip: match the page to the palette via `Journal → Configure Page Template` —
-background `#1a1b26` for Night, `#e6e7ed` for Light.
+Match the page too: `Journal > Configure Page Template`, background `#1a1b26`
+for Night, `#e6e7ed` for Light.
 
 ## Palettes
 
-### Tokyo Night (`tokyo-night.gpl`) — dark paper
+### Tokyo Night, dark paper
 
 | Color | Hex |
 | --- | --- |
@@ -49,7 +42,7 @@ background `#1a1b26` for Night, `#e6e7ed` for Light.
 | Editor Foreground | `#a9b1d6` |
 | Foreground | `#c0caf5` |
 
-### Tokyo Night Light (`tokyo-night-light.gpl`) — light paper
+### Tokyo Night Light, light paper
 
 | Color | Hex |
 | --- | --- |
@@ -68,7 +61,7 @@ background `#1a1b26` for Night, `#e6e7ed` for Light.
 | Text | `#40434f` |
 | Foreground | `#343b58` |
 
-### Tokyo Night Mix (`tokyo-night-mix.gpl`) — all papers
+### Tokyo Night Mix, all papers
 
 | Color | Hex | Source |
 | --- | --- | --- |
@@ -88,8 +81,8 @@ background `#1a1b26` for Night, `#e6e7ed` for Light.
 
 Colors by [enkia](https://github.com/tokyo-night/tokyo-night-vscode-theme)
 ([MIT](https://github.com/tokyo-night/tokyo-night-vscode-theme/blob/master/LICENSE)).
-Palette layout inspired by the [Dracula Xournal++ port](https://draculatheme.com/xournalpp).
+Layout copied from the [Dracula Xournal++ port](https://draculatheme.com/xournalpp).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
