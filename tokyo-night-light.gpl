@@ -1,0 +1,25 @@
+GIMP Palette
+Name: Tokyo Night Light
+#
+# Tokyo Night Light for Xournal++ (light-paper companion to Tokyo Night)
+# Source: enkia/tokyo-night-vscode-theme README "Tokyo Night Light" table
+#   editor.background #e6e7ed, editor.foreground #343b58
+# Use on light paper (#e6e7ed via Journal -> Configure Page Template).
+# For dark paper (#1a1b26) use the Tokyo Night palette instead.
+# Background first / Foreground last mirrors the Dracula Xournal++ port.
+# Install: file lives in ~/.config/xournalpp/palettes/, then
+#   Edit -> Preferences -> Palette -> Tokyo Night Light (restart if missing).
+230 231 237 Background
+108 110 117 Comment
+140 67 81 Red
+150 80 39 Orange
+143 94 21 Yellow
+99 79 48 Tan
+56 95 13 Green
+51 99 92 Teal
+0 108 134 Cyan
+15 75 110 Light Blue
+41 89 170 Blue
+90 62 142 Magenta
+64 67 79 Text
+52 59 88 Foreground

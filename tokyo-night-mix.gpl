@@ -1,0 +1,23 @@
+GIMP Palette
+Name: Tokyo Night Mix
+#
+# Tokyo Night Mix for Xournal++: one palette for all papers (white, light,
+# dark, black). Per-hue pick of the Night/Light rendition with the best
+# worst-case contrast across those four papers (3:1+ = pen-safe).
+# Sources: enkia/tokyo-night-vscode-theme README Night + Light tables.
+# The two ink extremes pair up like default's Black/White: dark ink for
+# light papers, light ink for dark papers. Mid-grey paper defeats every
+# chromatic ink, so it is excluded from the guarantee.
+# Install: ~/.config/xournalpp/palettes/, then
+#   Edit -> Preferences -> Palette -> Tokyo Night Mix (restart if missing).
+26 27 38 Ink Dark
+108 110 117 Grey
+140 67 81 Red
+150 80 39 Orange
+143 94 21 Yellow
+56 95 13 Green
+51 99 92 Teal
+0 108 134 Cyan
+41 89 170 Blue
+90 62 142 Magenta
+192 202 245 Ink Light
