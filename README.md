@@ -16,9 +16,24 @@ Why three: an ink bright enough to glow on dark paper is too close to white to r
 
 ## Install
 
-Copy the `.gpl` files to the `palettes` folder in your Xournal++ config folder
-(`~/.config/xournalpp/palettes/` on Linux). Restart Xournal++, then pick one in
-`Edit > Preferences > Palette`.
+No git needed:
+
+1. Download `tokyo-night-palettes.zip` from
+   [Releases](https://github.com/Bukutsu/xournalpp-tokyo-night/releases) and unzip it.
+2. Copy the three `.gpl` files into the `palettes` folder:
+
+   | System | Folder |
+   | --- | --- |
+   | Linux | `/home/<you>/.config/xournalpp/palettes/` |
+   | Mac | `/Users/<you>/.config/xournalpp/palettes/` |
+   | Windows | `C:\Users\<you>\AppData\Local\xournalpp\palettes\` |
+
+   On Windows the AppData folder is hidden. Paste the path into the File Explorer
+   address bar with your own username.
+3. Restart Xournal++, then pick one in `Edit > Preferences > Palette`.
+
+With git: `git clone https://github.com/Bukutsu/xournalpp-tokyo-night.git` and copy
+the `.gpl` files to the same folder.
 
 Match the page too: `Journal > Configure Page Template`, background `#1a1b26`
 for Night, `#e6e7ed` for Light.
