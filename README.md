@@ -1,12 +1,12 @@
 # Tokyo Night for Xournal++
 
-Pen palettes for [Xournal++](https://xournalpp.github.io/), taken from
+Pen palettes for [Xournal++](https://xournalpp.github.io/) from
 [enkia's Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme)
-VS Code theme (default Night variant, `#1a1b26`).
+VS Code theme (Night, `#1a1b26`).
 
 ![preview](preview.png)
 
-Three files, pick by paper:
+3 files, pick by paper:
 
 - `tokyo-night.gpl`: dark paper. Full glow, unreadable on white.
 - `tokyo-night-light.gpl`: light paper.
